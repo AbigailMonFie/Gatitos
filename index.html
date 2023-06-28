@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Comentario-->
+    <head>
+        <title>Página de gatitos</title>
+        <meta charset="UTF-8"> 
+        <link href="estilos.css" rel="stylesheet">
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Página de gatitos</h1>
+
+        <h3>Imágenes de gatitos</h3>
+        <!--Imagen desde internet-->
+        <img src="https://imagenes.muyinteresante.es/files/image_620_410/uploads/2022/10/12/63461eb5c7f60.jpeg">
+
+        <!--Imagen desde la computadora-->
+        <img src="imagenes/angora-1200x720.jpg">
+
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver más imagenes de gatitos, <a href="https://unsplash.com/es/images/animals/kitten" target="_blank">da click en este enlace</a>.</p>
+
+        <h3>Listas de gatitos</h3>
+
+        <p>3 Cosas que los gatitos <i><strong>aman</strong></i></p>
+
+        <!--Lista ordenada-->
+        <ol><!--Ordered List-->
+         <li>Dormir</li> <!--List-->
+         <li>Jugar</li>
+         <li>Estambre</li>
+        </ol>
+
+        <p>3 Cosas que los gatitos <i><strong>odian</strong></i></p>
+
+        <!--Lista desordenada-->
+        <ul> <!--Unordered list-->
+            <li>Agua</li>
+            <li>Bañarse</li>
+            <li>Tener hambre</li>
+        </ul>
+
+        <!--Formularios-->
+
+        <form>
+            <!--Form con botones de radio-->
+            <p>¿Tu gatito es cachorro o es adulto?</p>
+            <label>
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked> Cachorro
+            </label>
+            <br>
+            <label>
+            <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> Adulto
+            </label>
+
+    <!--Form con casillas de verificacion-->
+            <p>¿Qué tipo de personalidad tiene tu gato?</p>
+            <label>
+                <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked>Enojon
+            </label>
+            <br>
+            <label>
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="energico" type="checkbox" value="energico" name="personalidad">Energico
+            </label>
+        </form>
+    </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/"target="_blank">Tecnolochicas PRO</a>.</small></p>
+    </footer>
+
+</html>
